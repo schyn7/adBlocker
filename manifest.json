@@ -1,0 +1,25 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "AdBockYouTube",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": ["content_script.js"]
+    }
+  ],
+  "description": "This extension skip and block every fu#%ing Ad as soon as it starts ",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  }
+}
+
+
+
+
+
